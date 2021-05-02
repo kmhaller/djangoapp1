@@ -4,4 +4,4 @@ from . import serializers
 
 class ArtistViewset(viewsets.ModelViewSet):
     queryset = models.Artist.objects.all()
-    serializer_class = serializers.ArtistSerializer
+    serializer_class = serializers.ArtistSerializerGet
